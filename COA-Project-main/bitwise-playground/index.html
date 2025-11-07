@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitwise Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚡ Bitwise & Number System Playground</h1>
+
+    <input type="number" id="numA" placeholder="Enter A">
+    <input type="number" id="numB" placeholder="Enter B (if needed)">
+    
+    <select id="operation">
+      <option value="and">AND (&)</option>
+      <option value="or">OR (|)</option>
+      <option value="xor">XOR (^)</option>
+      <option value="not">NOT (~A)</option>
+      <option value="lshift">LEFT SHIFT (A << n)</option>
+      <option value="rshift">RIGHT SHIFT (A >> n)</option>
+      <option value="add">ADD (A + B)</option>
+      <option value="sub">SUBTRACT (A - B)</option>
+      <option value="mul">MULTIPLY (A * B)</option>
+      <option value="div">DIVIDE (A / B)</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result">Result will appear here...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
